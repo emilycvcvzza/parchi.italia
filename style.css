@@ -24,15 +24,42 @@ body {
   h1 {
     font-size: 36px;
     color: #d82929;
+    padding-left: 30px;
   }
+  p strong { 
+    padding-left:0px;
+    }
+    
+  p { 
+    padding-left: 30px;
+    }
+
+    a  { 
+    padding-left: 30px;
+    }
+
+
   h2 {
     font-size: 20px;
     margin-top: 10px;
+    padding-left: 30px;
     font-style: italic;
   }
-  section {
-    margin-top: 30px;
+
+  h3 {
+    font-size: 25px;
+    color: #d82929;
+    margin-top: 5px;
+    margin-left: 10px;
   }
+
+
+  section {
+    margin-top: 70px;
+    display: flex;
+  }
+
+
   footer {
     background-color: #ffd1a6;
     padding: 20px;
@@ -50,3 +77,229 @@ body {
     height: auto;
     border-radius: 8px;
   }
+
+ #card1{
+  width: 300px;
+  height: 300px;
+}
+#card1 img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#card2{
+  width: 300px;
+  height: 300px;
+}
+#card2 img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#card3{
+  width: 300px;
+  height: 300px;
+}
+#card3 img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#card4{
+  width: 300px;
+  height: 300px;
+}
+#card4 img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#card5{
+  width: 300px;
+  height: 300px;
+}
+#card5 img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+.grid {
+    display: grid
+;
+  
+    max-width: 100%;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+* {
+    box-sizing: border-box;
+  
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
+
+    .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6, li, span, a {
+    padding-top: 50px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:-webkit-any-link {
+    color: #5a2e15;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.card-link .card {
+    cursor: pointer;
+}
+.card {
+    background-color: #ffd1a6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.card-link .card {
+    cursor: pointer;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #5a2e15;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.card-link .card {
+    cursor: pointer;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+a:-webkit-any-link {
+    color: #5a2e15;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.parks-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #5a2e15;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.grid ul li {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.gallery .card    { 
+  display: grid;
+   max-width: 100%;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+* {
+    box-sizing: border-box;
+     margin: 0;
+    padding: 0;
+  
+}
+
+.gallery .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
