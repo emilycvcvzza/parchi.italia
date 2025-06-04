@@ -31,6 +31,7 @@ body {
     }
     
   p { 
+    padding-right: 30px;
     padding-left: 30px;
     }
 
@@ -133,7 +134,9 @@ body {
         grid-template-columns: 1fr;
         gap: 30px;
     }
+    
 }
+
 .grid {
     display: grid
 ;
@@ -278,11 +281,12 @@ ul {
     padding-left: 20px;
 }
 
-.gallery .card    { 
-  display: grid;
+.gallery .card { 
+  display: flex;
+  flex-direction: column;
    max-width: 100%;
-    margin: 0 auto 60px;
-    padding: 0 20px;
+    margin: 5px;
+    padding: 20px;
     margin-top: 30px;
 }
 
@@ -290,11 +294,10 @@ ul {
     box-sizing: border-box;
      margin: 0;
     padding: 0;
-  
 }
 
 .gallery .card img {
-    width: 100%;
+    width: 300px;
     height: 200px;
     object-fit: cover;
 } 
@@ -302,4 +305,5 @@ ul {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
 }
